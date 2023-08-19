@@ -852,7 +852,7 @@ Instagram Stories 没有可靠的 guid，你的 RSS 阅读器可能将同一条 
 
 的效果为
 
-<img src="/readable-twitter.png" alt="Durov 的可读推特 RSS" />
+<img src="/img/readable-twitter.png" alt="Durov 的可读推特 RSS" />
 
 ### 用户时间线 {#twitter-yong-hu-shi-jian-xian}
 
@@ -1235,7 +1235,7 @@ YouTube 官方亦有提供频道 RSS，形如 <https://www.youtube.com/feeds/vid
 
 的效果为
 
-<img src="/readable-douban.png" alt="豆瓣读书的可读豆瓣广播 RSS" />
+<img src="/img/readable-douban.png" alt="豆瓣读书的可读豆瓣广播 RSS" />
 
 </Route>
 
@@ -1564,7 +1564,7 @@ rule
 
 的效果为
 
-<img src="/readable-weibo.png" alt="微博小秘书的可读微博 RSS" />
+<img src="/img/readable-weibo.png" alt="微博小秘书的可读微博 RSS" />
 
 ### 博主 {#wei-bo-bo-zhu}
 
@@ -1763,6 +1763,7 @@ rule
 ### 用户关注时间线 {#zhi-hu-yong-hu-guan-zhu-shi-jian-xian}
 
 <Route author="SeanChao" example="/zhihu/timeline" path="/zhihu/timeline" anticrawler="1" selfhost="1">
+
 :::caution 注意
 
 用户关注动态需要登录后的 Cookie 值，所以只能自建，详情见部署页面的配置模块。
@@ -1770,3 +1771,7 @@ rule
 :::
 
 </Route>
+
+### [xhu](https://github.com/REToys/xhu) - 话题 {#zhi-hu-%5Bxhu%5D(https%3A%2F%2Fgithub.com%2Fretoys%2Fxhu)---hua-ti}
+
+<Route author="JimenezLi" example="/zhihu/xhu/topic/19566035" path="/zhihu/xhu/topic/:topicId" paramsDesc={['话题ID']} anticrawler="1"/>
